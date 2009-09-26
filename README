@@ -1,0 +1,23 @@
+
+To jumpstart with Git repo on GitHub
+
+Global setup:
+  Download and install Git
+  git config --global user.name "Rahul Thakur"
+  git config --global user.email rahul.thakur.xdev@gmail.com
+        
+Next steps:
+  mkdir bootcamp-sandbox
+  cd bootcamp-sandbox
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:rinku/bootcamp-sandbox.git
+  git push origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:rinku/bootcamp-sandbox.git
+  git push origin master
+
